@@ -7,4 +7,8 @@ public class Rectangle extends Shape{
     public double getArea() {
         return base * height;
     }
+    @Override
+    public double getPerimeter() {
+        return base * 2 + height * 2;
+    }
 }

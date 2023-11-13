@@ -39,7 +39,10 @@ public class Main {
         for(Student student: students){
           student.Display();
         }
+        students.sort(new StudentComparator());
+        
     }
+
 
     public static void isShape(Shape shape){
         if(shape instanceof Shape){
